@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zizan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container bg-success text-white p-2" style="max-height: 600px; max-width: 600px;">
+        Box
+        <div class="col-12 bg-light text-dark p-3 border border-5 border-success "style="height: 100px;">Header</div>
+        <div class=" col-12 bg-light text-dark p-3 mt-1 border border-5 border-success">Menu</div>
+        <div class="cont-nav d-flex mt-1 text-dark" >
+            <div class="col-8 p-3 flex-grow-1 bg-light border border-5 border-success " style="height: 225px;">Content</div>
+            <div class="col-4 p-3 d-flex bg-light border border-5 border-success" style="height: 225px;">Navigasi</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!-- 1. max-width
+        Properti max-width digunakan untuk menentukan lebar maksimum suatu elemen. Jika konten atau elemen melebihi nilai max-width, maka lebarnya akan tetap terbatas sesuai nilai yang telah ditentukan.
+        div {
+        max-width: 500px;
+        background-color: lightblue;
+        }
+        Jika viewport lebih besar dari 500px, elemen akan berhenti melebar setelah 500px. Jika lebih kecil, elemen bisa menyesuaikan (shrink) mengikuti ukuran layar.
+
+     2. min-width
+        Properti min-width digunakan untuk menentukan lebar minimum suatu elemen. Jika konten atau elemen lebih kecil dari nilai min-width, maka lebarnya akan tetap minimal sesuai nilai yang ditentukan.
+        div {
+        min-width: 300px;
+        background-color: lightgreen;
+        }
+        Jika viewport lebih kecil dari 300px, elemen tetap memiliki lebar 300px, tidak akan mengecil lebih dari itu.
+
+     3. Satuan Angka
+        a. px (pixel) = Satuan tetap yang tidak berubah berdasarkan ukuran layar atau font pengguna.
+            p {
+            font-size: 16px;
+            }
+        b. pt (point) = Biasanya digunakan dalam dunia percetakan (1 pt = 1/72 inci). Kurang umum dalam desain web.
+            p {
+            font-size: 12pt;
+            }
+        c. em: Satuan relatif terhadap ukuran font dari elemen induk. Jika elemen induk memiliki font-size: 16px, maka 1em = 16px.
+            p {
+            font-size: 1.5em; /* 1.5 × 16px = 24px */
+            }
+        d. rem (root em): Satuan relatif terhadap ukuran font dari elemen <html>. Jika ukuran font default browser adalah 16px, maka 1rem = 16px.
+            p {
+            font-size: 2rem; /* 2 × 16px = 32px */
+            }
+     -->
